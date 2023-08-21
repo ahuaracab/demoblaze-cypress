@@ -1,0 +1,24 @@
+{
+  "name": "demoblaze-cypress",
+  "version": "1.0.0",
+  "description": "Automated functional testing repository with Cypress for DemoBlaze project",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahuaracab/demoblaze-cypress.git"
+  },
+  "author": "Angelo Huaraca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahuaracab/demoblaze-cypress/issues"
+  },
+  "homepage": "https://github.com/ahuaracab/demoblaze-cypress#readme",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.17.4"
+  }
+}
