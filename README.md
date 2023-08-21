@@ -1,28 +1,28 @@
-# DemoBlaze Automated Testing with Cypress {#demoblaze-automated-testing-with-cypress}
+# DemoBlaze Automated Testing with Cypress
 
 This repository contains automated functional tests for the DemoBlaze project using Cypress.
 
-## Table of Contents {#table-of-contents}
+## Table of Contents
 
--   [DemoBlaze Automated Testing with Cypress {#demoblaze-automated-testing-with-cypress}](#demoblaze-automated-testing-with-cypress-demoblaze-automated-testing-with-cypress)
-    -   [Table of Contents {#table-of-contents}](#table-of-contents-table-of-contents)
-    -   [Prerequisites {#prerequisites}](#prerequisites-prerequisites)
-    -   [Installation and Usage {#installation-and-usage}](#installation-and-usage-installation-and-usage)
-    -   [Demo Result Image {#interpret-the-results}](#demo-result-image-interpret-the-results)
-    -   [Interpret the Results](#interpret-the-results)
-    -   [Configuration {#configuration}](#configuration-configuration)
-    -   [Environment](#environment)
-    -   [Dependencies {#dependencies}](#dependencies-dependencies)
-    -   [Folder Structure {#folder-structure}](#folder-structure-folder-structure)
-    -   [Issues and Contributions {#issues-and-contributions}](#issues-and-contributions-issues-and-contributions)
-    -   [Author {#author}](#author-author)
-    -   [License {#license}](#license-license)
+- [DemoBlaze Automated Testing with Cypress](#demoblaze-automated-testing-with-cypress)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation and Usage](#installation-and-usage)
+  - [Demo Result Image](#demo-result-image)
+  - [Interpret the Results](#interpret-the-results)
+  - [Configuration](#configuration)
+  - [Environment](#environment)
+  - [Dependencies](#dependencies)
+  - [Folder Structure](#folder-structure)
+  - [Issues and Contributions](#issues-and-contributions)
+  - [Author](#author)
+  - [License](#license)
 
-## Prerequisites {#prerequisites}
+## Prerequisites
 
 -   Node.js version 14 or higher is required.
 
-## Installation and Usage {#installation-and-usage}
+## Installation and Usage
 
 1.  Clone this repository:
 
@@ -38,7 +38,7 @@ This repository contains automated functional tests for the DemoBlaze project us
 
     `npm run cy:run`
 
-## Demo Result Image {#interpret-the-results}
+## Demo Result Image
 
 ![](demo.png)
 
@@ -61,13 +61,13 @@ Overall Result At the end of the output, you'll see an overall result:
 -   "`All specs passed!`" indicates all tests passed.
 -   If any tests failed, scroll up to the corresponding specification for details.
 
-## Configuration {#configuration}
+## Configuration
 
 The configuration for the tests is located in cypress.json and includes the base URL for the tests.
 
 `{ "baseUrl": "https://www.demoblaze.com/" }`
 
-## Environment {#environment}
+## Environment
 
 The tests are executed with random credentials created for each test. If you want to use your own username and password credentials to run the tests:
 
@@ -75,12 +75,12 @@ The tests are executed with random credentials created for each test. If you wan
 
 -   Replace the example credentials with your credentials.
 
-## Dependencies {#dependencies}
+## Dependencies
 
 -   Cypress: A powerful end-to-end testing framework for web applications.
 -   @faker-js/faker: A library for generating realistic fake data.
 
-## Folder Structure {#folder-structure}
+## Folder Structure
 
 -   cypress/: Contains the test scripts and fixtures organized by categories.
     -   e2e/: End-to-end test scripts.
@@ -92,15 +92,15 @@ The tests are executed with random credentials created for each test. If you wan
 -   package.json: Project metadata and scripts.
 -   README.md: You're currently reading it!
 
-## Issues and Contributions {#issues-and-contributions}
+## Issues and Contributions
 
 If you encounter any issues or have suggestions for improvement, please open an issue on [GitHub](https://github.com/ahuaracab/demoblaze-cypress/issues).
 
-## Author {#author}
+## Author
 
 -   Angelo Huaraca
 
-## License {#license}
+## License
 
 This project is licensed under the ISC License.
 
